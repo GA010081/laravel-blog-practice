@@ -14,10 +14,18 @@
 Route::get('/', function () {
 
 
-	//throw new Exception("Tracy Works!");
-	
-    return view('welcome');
+	return view('index');
+    
 });
+Route::get('hello', function () {
+
+
+	return view('hello.hello');
+    
+});
+
+
+
 
 /*
 |--------------------------------------------------------------------------
