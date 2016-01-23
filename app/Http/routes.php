@@ -12,6 +12,10 @@
 */
 
 Route::get('/', function () {
+
+
+	//throw new Exception("Tracy Works!");
+	
     return view('welcome');
 });
 
